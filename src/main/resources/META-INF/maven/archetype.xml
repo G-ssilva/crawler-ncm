@@ -1,0 +1,9 @@
+<archetype>
+  <id>crawler-ncm</id>
+  <sources>
+    <source>src/br.com.alura.oobj.cli.main/java/App.java</source>
+  </sources>
+  <testSources>
+    <source>src/test/java/AppTest.java</source>
+  </testSources>
+</archetype>
