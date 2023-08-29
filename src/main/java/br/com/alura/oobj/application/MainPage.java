@@ -12,6 +12,7 @@ public class MainPage {
     private WebDriver browser;
 
     public MainPage() {
+        //Driver da versão 116.0.5845.96 do Google Chrome (https://googlechromelabs.github.io/chrome-for-testing/)
         System.setProperty("webdriver.chrome.driver", "drivers/chromedriver.exe");
         this.browser = new ChromeDriver();
         this.browser.navigate().to(URL_MAIN);
